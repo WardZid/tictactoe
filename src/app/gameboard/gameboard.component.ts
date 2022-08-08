@@ -49,6 +49,5 @@ export class GameboardComponent {
         return;
       }
     }
-    this.winner="";
   }
 }
