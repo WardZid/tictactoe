@@ -1,11 +1,14 @@
+
 <h1>Let's Play Tic Tac Toe!</h1>
 <h2>Current Player: {{ turn }}</h2>
-<button (click)="newGame()">New Game</button>
 <h3 *ngIf="winner !== ''">The winner is {{winner}}</h3>
-<main>
-    <app-square *ngFor="let val of squares; let i = index"
-    [value]="val"
-    (click)="makeMove(i)">
+<body >
+    <button mat-raised-button color="accent" (click)="newGame()">New Game</button>
+    <main>
+        <app-square *ngFor="let val of squares; let i = index"
+            [value]="val"
+            (click)="makeMove(i)">
 
-    </app-square>
-</main>
+        </app-square>
+    </main>
+</body>
