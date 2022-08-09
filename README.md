@@ -1,5 +1,9 @@
 # Tictactoe
 
+Github Pages: https://wardzid.github.io/tictactoe/
+
+Firebase App: https://tictactoe-bed3d.firebaseapp.com/
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.1.
 
 ## Development server
