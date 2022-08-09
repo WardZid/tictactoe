@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "tictactoe-bed3d": {
+      "hosting": {
+        "tictactoe": [
+          "tictactoe-bed3d"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "tictactoe-bed3d"
+  }
+}

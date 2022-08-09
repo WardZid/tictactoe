@@ -106,6 +106,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "tictactoe:build:production",
+            "firebaseProject": "tictactoe-bed3d",
+            "firebaseHostingSite": "tictactoe-bed3d"
+          }
         }
       }
     }
