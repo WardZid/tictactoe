@@ -2,8 +2,7 @@ import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-square',
-  template: ''+
-  '<button mat-raised-button color="primary">{{value}}</button>',
+  templateUrl: './square.component.html',
   styleUrls: ['./square.component.sass']
 })
 export class SquareComponent {
