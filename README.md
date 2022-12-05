@@ -1,6 +1,14 @@
-# Tictactoe
+# TicTacToe by Ward Zidani
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.1.
+
+This is my my intro to the Angular framework!
+
+### Try it here!
+
+Github Pages: https://wardzid.github.io/tictactoe/
+
+Firebase App: https://tictactoe-bed3d.firebaseapp.com/
 
 ## Development server
 
