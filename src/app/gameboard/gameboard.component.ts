@@ -22,7 +22,7 @@ export class GameboardComponent {
   }
 
   makeMove(spot : number){
-    if(this.winner ==="" && this.squares[spot] === ""){
+    if(this.winner =="" && this.squares[spot] == ""){
       this.squares[spot] = this.turn;
       this.xIsNext=!this.xIsNext;
     }
